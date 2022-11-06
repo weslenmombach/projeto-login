@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+    body{
+        background-image: linear-gradient( to right, cornflowerblue, rgb(79, 79, 238));
+    }
+    
+    #login{
+        width: 80vw;
+    }
+
+    #imagem{
+        float: left;
+        width: 35%;
+        height: 100vh;
+    }
+
+    #form{
+        float: right;
+        width: 65%;
+        height: 100vh;
+    }
+}
+
+/*Telas Grandes*/
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient( to right, cornflowerblue, rgb(79, 79, 238));
+    }
+    
+    #login{
+        width: 990px; /*Utilizei um tamanho em px para que ele pare de crescer e não ocupe uma largura muito grande da vw*/
+    }
+
+    #imagem{
+        float: left;
+        width: 40%;
+        height: 100vh;
+    }
+
+    #form{
+        float: right;
+        width: 60%;
+        height: 100vh;
+    }
+}
