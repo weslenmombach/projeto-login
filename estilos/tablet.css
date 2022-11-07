@@ -11,15 +11,24 @@
     }
 
     #imagem{
-        float: left;
+        float: right;
         width: 35%;
         height: 100vh;
     }
 
     #form{
-        float: right;
+        float: left;
         width: 65%;
         height: 100vh;
+    }
+
+    #form > h1{
+        margin-bottom: 20px;
+        font-size: 1.8em;
+    }
+
+    #form > p{
+        font-size: 1.3em;
     }
 }
 
@@ -43,5 +52,14 @@
         float: right;
         width: 60%;
         height: 100vh;
+    }
+
+    #form > h1{
+        margin-bottom: 20px;
+        font-size: 1.8em;
+    }
+
+    #form > p{
+        font-size: 1.3em;
     }
 }
