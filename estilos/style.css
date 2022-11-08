@@ -19,11 +19,87 @@ main{
     position: relative;
 }
 
+#form > p{
+    font-size: 0.9em;
+    padding: 2px;
+}
+
+.login{
+    background-color: cadetblue;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.senha{
+    background-color: cadetblue;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.login > label{
+    display: none;
+    color: white;
+}
+
+.senha > label{
+    display: none;
+    color: white;
+}
+
+#idlogin{
+    font-size: 2em;
+    color: white;
+    width: 40px;
+    padding: 5px;
+}
+
+
+.login > input{
+    font-size: 1em;
+    height: 90%;
+    border-radius: 8px;
+    padding: 5px;
+    width: calc(100% - 50px);
+    border: 1px solid darkcyan;
+    background-color: lightgray;
+    transform: translateY(-4px);
+}
+
+.login > input:focus-within{
+    background-color: white;
+}
+
+
+#idsenha{
+    font-size: 2em;
+    color: white;
+    width: 40px;
+    padding: 5px;
+}
+
+.senha > input{
+    font-size: 1em;
+    height: 90%;
+    border-radius: 8px;
+    padding: 5px;
+    width: calc(100% - 50px);
+    border: 1px solid darkcyan;
+    background-color: lightgray;
+    transform: translateY(-4px);
+}
+
+.senha > input:focus-within{
+    background-color: white;
+}
+
 #login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
     height: 500px;
@@ -32,6 +108,7 @@ main{
     box-shadow: 0px 0px 20px rgba(43, 42, 42, 0.856);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 #imagem{
@@ -54,7 +131,7 @@ main{
    text-align: center;
 }
 
-form > input[type="submit"] {
+#buttons > input[type="submit"] {
     display: block;
     font-size: 1em;
     width: 100%;
@@ -63,14 +140,15 @@ form > input[type="submit"] {
     background-color: cornflowerblue;
     border-radius: 5px;
     border: none;
+    margin-top: 6px;
 }
 
-form > input[type="submit"]:hover{
+#buttons > input[type="submit"]:hover{
     background-color: darkcyan;
     cursor: pointer;
 }
 
-#button{
+#buttons > a{
     display: block;
     font-size: 1em;
     width: 100%;
@@ -78,12 +156,19 @@ form > input[type="submit"]:hover{
     color: white;
     background-color: cornflowerblue;
     border-radius: 5px;
-    border: none;
     text-align: center;
     text-decoration: none;
+    padding-bottom: 4px;
+    margin-top: 5px;
 }
 
-#button:hover{
-    background-color: darkcyan;
+#buttons > a:hover{
+    background-color: lightblue;
+    color: black;
     cursor: pointer;
+}
+
+#mailicon{
+    padding-top: 8px;
+    font-size: 1.2em;
 }

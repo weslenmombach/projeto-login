@@ -5,9 +5,10 @@
     body{
         background-image: linear-gradient( to right, cornflowerblue, rgb(79, 79, 238));
     }
-    
+
     #login{
         width: 80vw;
+        height: 350px;
     }
 
     #imagem{
@@ -29,7 +30,10 @@
 
     #form > p{
         font-size: 1.3em;
+        padding: 10px;
     }
+
+
 }
 
 /*Telas Grandes*/
@@ -61,5 +65,34 @@
 
     #form > p{
         font-size: 1.3em;
+        padding: 10px;
+    }
+
+    .login > label{
+        display: inline-block;
+    }
+    
+    .senha > label{
+        display: inline-block;
+    }
+
+    .senha > input{
+        font-size: 1em;
+        height: 90%;
+        border-radius: 8px;
+        padding: 5px;
+        width: calc(100% - 120px);
+        border: 1px solid darkcyan;
+        transform: translateY(-4px);
+    }
+
+    .login > input{
+        font-size: 1em;
+        height: 90%;
+        border-radius: 8px;
+        padding: 5px;
+        width: calc(100% - 120px);
+        border: 1px solid darkcyan;
+        transform: translateY(-4px);
     }
 }
